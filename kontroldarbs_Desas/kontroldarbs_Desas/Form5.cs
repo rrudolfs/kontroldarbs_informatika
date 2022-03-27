@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace kontroldarbs_Desas
 {
-    public partial class Form3 : Form
+    public partial class Form5 : Form
     {
-        public Form3()
+        public Form5()
         {
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void Form5_Load(object sender, EventArgs e)
         {
             AizvertPoga2.Enabled = true;
         }
@@ -27,11 +27,6 @@ namespace kontroldarbs_Desas
             this.Hide();
             Form2 sakt = new Form2();
             sakt.Show();
-        }
-
-        private void ApsveikumaUzraksts_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

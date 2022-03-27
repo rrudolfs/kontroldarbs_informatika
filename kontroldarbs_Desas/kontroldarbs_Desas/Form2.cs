@@ -14,6 +14,7 @@ namespace kontroldarbs_Desas
     {
         bool gajiens = true;//ja gajiens ir true iet 1. speletajs(X), ja gajiens ir false iet 2. speletajs(O).
         bool uzvara = false;
+        int skaits = 0;
         public Form2()
         {
             InitializeComponent();
@@ -40,6 +41,8 @@ namespace kontroldarbs_Desas
             }
             A1.Enabled = false;//lai otrs spēlētājs nevarētu savu figūru uzlikt virsu.
             parbaude();
+            skaits++;
+            
         }
 
         private void A2_Click(object sender, EventArgs e)
@@ -56,6 +59,7 @@ namespace kontroldarbs_Desas
             }
             A2.Enabled = false;
             parbaude();
+            skaits++;
         }
 
         private void A3_Click(object sender, EventArgs e)
@@ -72,6 +76,7 @@ namespace kontroldarbs_Desas
             }
             A3.Enabled = false;
             parbaude();
+            skaits++;
         }
         private void B1_Click(object sender, EventArgs e)
         {
@@ -87,6 +92,7 @@ namespace kontroldarbs_Desas
             }
             B1.Enabled = false;
             parbaude();
+            skaits++;
         }
 
         private void B2_Click(object sender, EventArgs e)
@@ -103,6 +109,7 @@ namespace kontroldarbs_Desas
             }
             B2.Enabled = false;
             parbaude();
+            skaits++;
         }
         private void B3_Click(object sender, EventArgs e)
         {
@@ -118,6 +125,7 @@ namespace kontroldarbs_Desas
             }
             B3.Enabled = false;
             parbaude();
+            skaits++;
         }
         private void C1_Click(object sender, EventArgs e)
         {
@@ -133,6 +141,7 @@ namespace kontroldarbs_Desas
             }
             C1.Enabled = false;
             parbaude();
+            skaits++;
         }
         private void C2_Click(object sender, EventArgs e)
         {
@@ -148,6 +157,7 @@ namespace kontroldarbs_Desas
             }
             C2.Enabled = false;
             parbaude();
+            skaits++;
         }
         private void C3_Click(object sender, EventArgs e)
         {
@@ -163,6 +173,7 @@ namespace kontroldarbs_Desas
             }
             C3.Enabled = false;
             parbaude();
+            skaits++;
         }
 
         private void parbaude()
@@ -212,6 +223,12 @@ namespace kontroldarbs_Desas
                 this.Hide();
                 Form4 apsveikums2 = new Form4();
                 apsveikums2.Show();
+            }
+            if ((skaits == 9)&&(uzvara==false))
+            {
+                this.Hide();
+                Form5 neizskirts = new Form5();
+                neizskirts.Show();
             }
         }
 

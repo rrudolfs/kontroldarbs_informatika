@@ -38,7 +38,7 @@ namespace kontroldarbs_Desas
             // 
             this.label1.BackColor = System.Drawing.Color.Khaki;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label1.Location = new System.Drawing.Point(136, 51);
+            this.label1.Location = new System.Drawing.Point(138, 67);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(297, 112);
             this.label1.TabIndex = 0;
@@ -49,18 +49,19 @@ namespace kontroldarbs_Desas
             // 
             this.ApsveikumaUzraksts.BackColor = System.Drawing.Color.Khaki;
             this.ApsveikumaUzraksts.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.ApsveikumaUzraksts.Location = new System.Drawing.Point(74, 273);
+            this.ApsveikumaUzraksts.Location = new System.Drawing.Point(74, 269);
             this.ApsveikumaUzraksts.Name = "ApsveikumaUzraksts";
             this.ApsveikumaUzraksts.Size = new System.Drawing.Size(419, 118);
             this.ApsveikumaUzraksts.TabIndex = 1;
             this.ApsveikumaUzraksts.Text = "Uzvarējis 2. spēlētājs !!";
             this.ApsveikumaUzraksts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ApsveikumaUzraksts.Click += new System.EventHandler(this.ApsveikumaUzraksts_Click);
             // 
             // AizvertPoga2
             // 
             this.AizvertPoga2.BackColor = System.Drawing.Color.Brown;
             this.AizvertPoga2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.AizvertPoga2.Location = new System.Drawing.Point(202, 458);
+            this.AizvertPoga2.Location = new System.Drawing.Point(203, 451);
             this.AizvertPoga2.Name = "AizvertPoga2";
             this.AizvertPoga2.Size = new System.Drawing.Size(154, 82);
             this.AizvertPoga2.TabIndex = 12;
