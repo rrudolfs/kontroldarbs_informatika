@@ -17,6 +17,11 @@ namespace kontroldarbs_Desas
             InitializeComponent();
         }
 
-       
+        private void AizvertPoga2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 virsraksts = new Form1();
+            virsraksts.Show();
+        }
     }
 }

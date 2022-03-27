@@ -60,6 +60,7 @@ namespace kontroldarbs_Desas
             this.SaktPoga.TabIndex = 1;
             this.SaktPoga.Text = "Sākt";
             this.SaktPoga.UseVisualStyleBackColor = false;
+            this.SaktPoga.Click += new System.EventHandler(this.SaktPoga_Click);
             // 
             // InformacijaPoga
             // 
@@ -71,6 +72,7 @@ namespace kontroldarbs_Desas
             this.InformacijaPoga.TabIndex = 2;
             this.InformacijaPoga.Text = "Info";
             this.InformacijaPoga.UseVisualStyleBackColor = false;
+            this.InformacijaPoga.Click += new System.EventHandler(this.InformacijaPoga_Click);
             // 
             // AizvertPoga
             // 
@@ -82,6 +84,7 @@ namespace kontroldarbs_Desas
             this.AizvertPoga.TabIndex = 3;
             this.AizvertPoga.Text = "Aizvērt";
             this.AizvertPoga.UseVisualStyleBackColor = false;
+            this.AizvertPoga.Click += new System.EventHandler(this.AizvertPoga_Click);
             // 
             // Form1
             // 

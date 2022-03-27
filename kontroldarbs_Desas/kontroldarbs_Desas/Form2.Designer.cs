@@ -29,137 +29,138 @@ namespace kontroldarbs_Desas
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelVirsraksts = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.AizvertPoga = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.labelVirsraksts2 = new System.Windows.Forms.Label();
+            this.A1 = new System.Windows.Forms.Button();
+            this.A2 = new System.Windows.Forms.Button();
+            this.A3 = new System.Windows.Forms.Button();
+            this.B3 = new System.Windows.Forms.Button();
+            this.B2 = new System.Windows.Forms.Button();
+            this.B1 = new System.Windows.Forms.Button();
+            this.C3 = new System.Windows.Forms.Button();
+            this.C2 = new System.Windows.Forms.Button();
+            this.C1 = new System.Windows.Forms.Button();
+            this.AizvertPoga2 = new System.Windows.Forms.Button();
+            this.RestartPoga = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // labelVirsraksts
+            // labelVirsraksts2
             // 
-            this.labelVirsraksts.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.labelVirsraksts2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelVirsraksts.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.labelVirsraksts.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelVirsraksts.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.labelVirsraksts.Location = new System.Drawing.Point(158, 19);
-            this.labelVirsraksts.Name = "labelVirsraksts";
-            this.labelVirsraksts.Size = new System.Drawing.Size(253, 69);
-            this.labelVirsraksts.TabIndex = 1;
-            this.labelVirsraksts.Text = "Spēle \"Desas\"";
-            this.labelVirsraksts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelVirsraksts2.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.labelVirsraksts2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelVirsraksts2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.labelVirsraksts2.Location = new System.Drawing.Point(158, 19);
+            this.labelVirsraksts2.Name = "labelVirsraksts2";
+            this.labelVirsraksts2.Size = new System.Drawing.Size(253, 69);
+            this.labelVirsraksts2.TabIndex = 1;
+            this.labelVirsraksts2.Text = "Spēle \"Desas\"";
+            this.labelVirsraksts2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // A1
             // 
-            this.button1.Location = new System.Drawing.Point(68, 125);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 135);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.A1.BackColor = System.Drawing.Color.Gainsboro;
+            this.A1.Location = new System.Drawing.Point(68, 117);
+            this.A1.Name = "A1";
+            this.A1.Size = new System.Drawing.Size(142, 135);
+            this.A1.TabIndex = 2;
+            this.A1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // A2
             // 
-            this.button2.Location = new System.Drawing.Point(216, 125);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(142, 135);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.A2.BackColor = System.Drawing.Color.Gainsboro;
+            this.A2.Location = new System.Drawing.Point(216, 117);
+            this.A2.Name = "A2";
+            this.A2.Size = new System.Drawing.Size(142, 135);
+            this.A2.TabIndex = 3;
+            this.A2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // A3
             // 
-            this.button3.Location = new System.Drawing.Point(364, 125);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 135);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.A3.BackColor = System.Drawing.Color.Gainsboro;
+            this.A3.Location = new System.Drawing.Point(364, 117);
+            this.A3.Name = "A3";
+            this.A3.Size = new System.Drawing.Size(142, 135);
+            this.A3.TabIndex = 4;
+            this.A3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // B3
             // 
-            this.button4.Location = new System.Drawing.Point(364, 264);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(142, 135);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.B3.BackColor = System.Drawing.Color.Gainsboro;
+            this.B3.Location = new System.Drawing.Point(364, 256);
+            this.B3.Name = "B3";
+            this.B3.Size = new System.Drawing.Size(142, 135);
+            this.B3.TabIndex = 7;
+            this.B3.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // B2
             // 
-            this.button5.Location = new System.Drawing.Point(216, 264);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(142, 135);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.B2.BackColor = System.Drawing.Color.Gainsboro;
+            this.B2.Location = new System.Drawing.Point(216, 256);
+            this.B2.Name = "B2";
+            this.B2.Size = new System.Drawing.Size(142, 135);
+            this.B2.TabIndex = 6;
+            this.B2.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // B1
             // 
-            this.button6.Location = new System.Drawing.Point(68, 264);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(142, 135);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.B1.BackColor = System.Drawing.Color.Gainsboro;
+            this.B1.Location = new System.Drawing.Point(68, 256);
+            this.B1.Name = "B1";
+            this.B1.Size = new System.Drawing.Size(142, 135);
+            this.B1.TabIndex = 5;
+            this.B1.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // C3
             // 
-            this.button7.Location = new System.Drawing.Point(364, 405);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(142, 135);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.C3.BackColor = System.Drawing.Color.Gainsboro;
+            this.C3.Location = new System.Drawing.Point(364, 397);
+            this.C3.Name = "C3";
+            this.C3.Size = new System.Drawing.Size(142, 135);
+            this.C3.TabIndex = 10;
+            this.C3.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // C2
             // 
-            this.button8.Location = new System.Drawing.Point(216, 405);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(142, 135);
-            this.button8.TabIndex = 9;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.C2.BackColor = System.Drawing.Color.Gainsboro;
+            this.C2.Location = new System.Drawing.Point(216, 397);
+            this.C2.Name = "C2";
+            this.C2.Size = new System.Drawing.Size(142, 135);
+            this.C2.TabIndex = 9;
+            this.C2.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // C1
             // 
-            this.button9.Location = new System.Drawing.Point(68, 405);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(142, 135);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.C1.BackColor = System.Drawing.Color.Gainsboro;
+            this.C1.Location = new System.Drawing.Point(68, 397);
+            this.C1.Name = "C1";
+            this.C1.Size = new System.Drawing.Size(142, 135);
+            this.C1.TabIndex = 8;
+            this.C1.UseVisualStyleBackColor = false;
             // 
-            // AizvertPoga
+            // AizvertPoga2
             // 
-            this.AizvertPoga.BackColor = System.Drawing.Color.Brown;
-            this.AizvertPoga.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.AizvertPoga.Location = new System.Drawing.Point(484, 573);
-            this.AizvertPoga.Name = "AizvertPoga";
-            this.AizvertPoga.Size = new System.Drawing.Size(85, 50);
-            this.AizvertPoga.TabIndex = 11;
-            this.AizvertPoga.Text = "Aizvērt";
-            this.AizvertPoga.UseVisualStyleBackColor = false;
+            this.AizvertPoga2.BackColor = System.Drawing.Color.Brown;
+            this.AizvertPoga2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.AizvertPoga2.Location = new System.Drawing.Point(462, 559);
+            this.AizvertPoga2.Name = "AizvertPoga2";
+            this.AizvertPoga2.Size = new System.Drawing.Size(105, 65);
+            this.AizvertPoga2.TabIndex = 11;
+            this.AizvertPoga2.Text = "Aizvērt";
+            this.AizvertPoga2.UseVisualStyleBackColor = false;
+            this.AizvertPoga2.Click += new System.EventHandler(this.AizvertPoga2_Click);
             // 
-            // button10
+            // RestartPoga
             // 
-            this.button10.BackColor = System.Drawing.Color.Chocolate;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.button10.Location = new System.Drawing.Point(12, 573);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(85, 50);
-            this.button10.TabIndex = 12;
-            this.button10.Text = "Restart";
-            this.button10.UseVisualStyleBackColor = false;
+            this.RestartPoga.BackColor = System.Drawing.Color.Chocolate;
+            this.RestartPoga.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.RestartPoga.Location = new System.Drawing.Point(12, 558);
+            this.RestartPoga.Name = "RestartPoga";
+            this.RestartPoga.Size = new System.Drawing.Size(105, 65);
+            this.RestartPoga.TabIndex = 12;
+            this.RestartPoga.Text = "Restart";
+            this.RestartPoga.UseVisualStyleBackColor = false;
             // 
             // Form2
             // 
@@ -167,18 +168,18 @@ namespace kontroldarbs_Desas
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(581, 635);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.AizvertPoga);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.labelVirsraksts);
+            this.Controls.Add(this.RestartPoga);
+            this.Controls.Add(this.AizvertPoga2);
+            this.Controls.Add(this.C3);
+            this.Controls.Add(this.C2);
+            this.Controls.Add(this.C1);
+            this.Controls.Add(this.B3);
+            this.Controls.Add(this.B2);
+            this.Controls.Add(this.B1);
+            this.Controls.Add(this.A3);
+            this.Controls.Add(this.A2);
+            this.Controls.Add(this.A1);
+            this.Controls.Add(this.labelVirsraksts2);
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.ShowIcon = false;
@@ -189,17 +190,17 @@ namespace kontroldarbs_Desas
 
         #endregion
 
-        private System.Windows.Forms.Label labelVirsraksts;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button AizvertPoga;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label labelVirsraksts2;
+        private System.Windows.Forms.Button A1;
+        private System.Windows.Forms.Button A2;
+        private System.Windows.Forms.Button A3;
+        private System.Windows.Forms.Button B3;
+        private System.Windows.Forms.Button B2;
+        private System.Windows.Forms.Button B1;
+        private System.Windows.Forms.Button C3;
+        private System.Windows.Forms.Button C2;
+        private System.Windows.Forms.Button C1;
+        private System.Windows.Forms.Button AizvertPoga2;
+        private System.Windows.Forms.Button RestartPoga;
     }
 }
