@@ -9,3 +9,5 @@ C:\Users\Rudolfs\Documents\GitHub\kontroldarbs_informatika\kontroldarbs_Desas\ko
 C:\Users\Rudolfs\Documents\GitHub\kontroldarbs_informatika\kontroldarbs_Desas\kontroldarbs_Desas\obj\Debug\kontroldarbs_Desas.csproj.CoreCompileInputs.cache
 C:\Users\Rudolfs\Documents\GitHub\kontroldarbs_informatika\kontroldarbs_Desas\kontroldarbs_Desas\obj\Debug\kontroldarbs_Desas.exe
 C:\Users\Rudolfs\Documents\GitHub\kontroldarbs_informatika\kontroldarbs_Desas\kontroldarbs_Desas\obj\Debug\kontroldarbs_Desas.pdb
+C:\Users\Rudolfs\Documents\GitHub\kontroldarbs_informatika\kontroldarbs_Desas\kontroldarbs_Desas\obj\Debug\kontroldarbs_Desas.Form3.resources
+C:\Users\Rudolfs\Documents\GitHub\kontroldarbs_informatika\kontroldarbs_Desas\kontroldarbs_Desas\obj\Debug\kontroldarbs_Desas.Form4.resources

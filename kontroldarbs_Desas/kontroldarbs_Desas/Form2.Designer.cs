@@ -161,11 +161,11 @@ namespace kontroldarbs_Desas
             // 
             this.AizvertPoga2.BackColor = System.Drawing.Color.Brown;
             this.AizvertPoga2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.AizvertPoga2.Location = new System.Drawing.Point(462, 559);
+            this.AizvertPoga2.Location = new System.Drawing.Point(439, 559);
             this.AizvertPoga2.Name = "AizvertPoga2";
-            this.AizvertPoga2.Size = new System.Drawing.Size(105, 65);
+            this.AizvertPoga2.Size = new System.Drawing.Size(128, 65);
             this.AizvertPoga2.TabIndex = 11;
-            this.AizvertPoga2.Text = "Aizvērt";
+            this.AizvertPoga2.Text = "Atgriezties";
             this.AizvertPoga2.UseVisualStyleBackColor = false;
             this.AizvertPoga2.Click += new System.EventHandler(this.AizvertPoga2_Click);
             // 

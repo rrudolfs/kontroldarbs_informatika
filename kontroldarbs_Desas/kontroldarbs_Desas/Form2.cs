@@ -39,7 +39,7 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             A1.Enabled = false;//lai otrs spēlētājs nevarētu savu figūru uzlikt virsu.
-       
+            parbaude();
         }
 
         private void A2_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             A2.Enabled = false;
-         
+            parbaude();
         }
 
         private void A3_Click(object sender, EventArgs e)
@@ -71,6 +71,7 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             A3.Enabled = false;
+            parbaude();
         }
         private void B1_Click(object sender, EventArgs e)
         {
@@ -85,6 +86,7 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             B1.Enabled = false;
+            parbaude();
         }
 
         private void B2_Click(object sender, EventArgs e)
@@ -100,6 +102,7 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             B2.Enabled = false;
+            parbaude();
         }
         private void B3_Click(object sender, EventArgs e)
         {
@@ -114,6 +117,7 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             B3.Enabled = false;
+            parbaude();
         }
         private void C1_Click(object sender, EventArgs e)
         {
@@ -128,6 +132,7 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             C1.Enabled = false;
+            parbaude();
         }
         private void C2_Click(object sender, EventArgs e)
         {
@@ -142,6 +147,7 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             C2.Enabled = false;
+            parbaude();
         }
         private void C3_Click(object sender, EventArgs e)
         {
@@ -156,6 +162,7 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             C3.Enabled = false;
+            parbaude();
         }
 
         private void parbaude()
@@ -194,13 +201,20 @@ namespace kontroldarbs_Desas
             }
 
 
-            if(uzvara == true)
+            if((uzvara == true)&&(gajiens==true))
             {
                 this.Hide();
-                Form3 apsveikums = new Form3();
-                apsveikums.Show();
+                Form3 apsveikums1 = new Form3();
+                apsveikums1.Show();
+            }
+            if ((uzvara == true) && (gajiens == false))
+            {
+                this.Hide();
+                Form4 apsveikums2 = new Form4();
+                apsveikums2.Show();
             }
         }
+
 
        
 

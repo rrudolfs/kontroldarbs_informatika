@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace kontroldarbs_Desas
 {
-    public partial class Form3 : Form
+    public partial class Form4 : Form
     {
-        public Form3()
+        public Form4()
         {
             InitializeComponent();
-        }
-
-        private void Form3_Load(object sender, EventArgs e)
-        {
-            AizvertPoga2.Enabled = true;
         }
 
         private void AizvertPoga2_Click(object sender, EventArgs e)

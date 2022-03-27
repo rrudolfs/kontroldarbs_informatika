@@ -1,7 +1,7 @@
 ﻿
 namespace kontroldarbs_Desas
 {
-    partial class Form3
+    partial class Form4
     {
         /// <summary>
         /// Required designer variable.
@@ -38,10 +38,10 @@ namespace kontroldarbs_Desas
             // 
             this.label1.BackColor = System.Drawing.Color.Khaki;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label1.Location = new System.Drawing.Point(136, 51);
+            this.label1.Location = new System.Drawing.Point(139, 71);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(297, 112);
-            this.label1.TabIndex = 0;
+            this.label1.TabIndex = 1;
             this.label1.Text = "Apsveicam !!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -49,26 +49,26 @@ namespace kontroldarbs_Desas
             // 
             this.ApsveikumaUzraksts.BackColor = System.Drawing.Color.Khaki;
             this.ApsveikumaUzraksts.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.ApsveikumaUzraksts.Location = new System.Drawing.Point(74, 273);
+            this.ApsveikumaUzraksts.Location = new System.Drawing.Point(84, 269);
             this.ApsveikumaUzraksts.Name = "ApsveikumaUzraksts";
             this.ApsveikumaUzraksts.Size = new System.Drawing.Size(419, 118);
-            this.ApsveikumaUzraksts.TabIndex = 1;
-            this.ApsveikumaUzraksts.Text = "Uzvarējis 2. spēlētājs !!";
+            this.ApsveikumaUzraksts.TabIndex = 2;
+            this.ApsveikumaUzraksts.Text = "Uzvarējis 1. spēlētājs !!";
             this.ApsveikumaUzraksts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // AizvertPoga2
             // 
             this.AizvertPoga2.BackColor = System.Drawing.Color.Brown;
             this.AizvertPoga2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.AizvertPoga2.Location = new System.Drawing.Point(202, 458);
+            this.AizvertPoga2.Location = new System.Drawing.Point(200, 450);
             this.AizvertPoga2.Name = "AizvertPoga2";
             this.AizvertPoga2.Size = new System.Drawing.Size(154, 82);
-            this.AizvertPoga2.TabIndex = 12;
+            this.AizvertPoga2.TabIndex = 13;
             this.AizvertPoga2.Text = "Atgriezties";
             this.AizvertPoga2.UseVisualStyleBackColor = false;
             this.AizvertPoga2.Click += new System.EventHandler(this.AizvertPoga2_Click);
             // 
-            // Form3
+            // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -77,9 +77,8 @@ namespace kontroldarbs_Desas
             this.Controls.Add(this.AizvertPoga2);
             this.Controls.Add(this.ApsveikumaUzraksts);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
-            this.Text = "Form3";
-            this.Load += new System.EventHandler(this.Form3_Load);
+            this.Name = "Form4";
+            this.Text = "Form4";
             this.ResumeLayout(false);
 
         }
