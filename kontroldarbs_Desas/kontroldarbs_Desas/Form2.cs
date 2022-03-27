@@ -241,11 +241,38 @@ namespace kontroldarbs_Desas
             }
         }
 
+        private void RestartPoga_Click(object sender, EventArgs e)
+        {
+            skaits = 0;
+            gajiens = true;
+            uzvara = false;
 
-       
+            A1.Enabled = true;
+            A1.Text = "";
 
+            A2.Enabled = true;
+            A2.Text = "";
 
+            A3.Enabled = true;
+            A3.Text = "";
 
+            B1.Enabled = true;
+            B1.Text = "";
 
+            B2.Enabled = true;
+            B2.Text = "";
+
+            B3.Enabled = true;
+            B3.Text = "";
+
+            C1.Enabled = true;
+            C1.Text = "";
+
+            C2.Enabled = true;
+            C2.Text = "";
+
+            C3.Enabled = true;
+            C3.Text = "";
+        }
     }//beigas public partial class
 }//beigas namespace
