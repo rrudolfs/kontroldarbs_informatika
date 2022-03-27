@@ -61,83 +61,101 @@ namespace kontroldarbs_Desas
             // A1
             // 
             this.A1.BackColor = System.Drawing.Color.Gainsboro;
+            this.A1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.A1.Location = new System.Drawing.Point(68, 117);
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(142, 135);
             this.A1.TabIndex = 2;
             this.A1.UseVisualStyleBackColor = false;
+            this.A1.Click += new System.EventHandler(this.A1_Click);
             // 
             // A2
             // 
             this.A2.BackColor = System.Drawing.Color.Gainsboro;
+            this.A2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.A2.Location = new System.Drawing.Point(216, 117);
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(142, 135);
             this.A2.TabIndex = 3;
             this.A2.UseVisualStyleBackColor = false;
+            this.A2.Click += new System.EventHandler(this.A2_Click);
             // 
             // A3
             // 
             this.A3.BackColor = System.Drawing.Color.Gainsboro;
+            this.A3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.A3.Location = new System.Drawing.Point(364, 117);
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(142, 135);
             this.A3.TabIndex = 4;
             this.A3.UseVisualStyleBackColor = false;
+            this.A3.Click += new System.EventHandler(this.A3_Click);
             // 
             // B3
             // 
             this.B3.BackColor = System.Drawing.Color.Gainsboro;
+            this.B3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.B3.Location = new System.Drawing.Point(364, 256);
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(142, 135);
             this.B3.TabIndex = 7;
             this.B3.UseVisualStyleBackColor = false;
+            this.B3.Click += new System.EventHandler(this.B3_Click);
             // 
             // B2
             // 
             this.B2.BackColor = System.Drawing.Color.Gainsboro;
+            this.B2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.B2.Location = new System.Drawing.Point(216, 256);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(142, 135);
             this.B2.TabIndex = 6;
             this.B2.UseVisualStyleBackColor = false;
+            this.B2.Click += new System.EventHandler(this.B2_Click);
             // 
             // B1
             // 
             this.B1.BackColor = System.Drawing.Color.Gainsboro;
+            this.B1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.B1.Location = new System.Drawing.Point(68, 256);
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(142, 135);
             this.B1.TabIndex = 5;
             this.B1.UseVisualStyleBackColor = false;
+            this.B1.Click += new System.EventHandler(this.B1_Click);
             // 
             // C3
             // 
             this.C3.BackColor = System.Drawing.Color.Gainsboro;
+            this.C3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.C3.Location = new System.Drawing.Point(364, 397);
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(142, 135);
             this.C3.TabIndex = 10;
             this.C3.UseVisualStyleBackColor = false;
+            this.C3.Click += new System.EventHandler(this.C3_Click);
             // 
             // C2
             // 
             this.C2.BackColor = System.Drawing.Color.Gainsboro;
+            this.C2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.C2.Location = new System.Drawing.Point(216, 397);
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(142, 135);
             this.C2.TabIndex = 9;
             this.C2.UseVisualStyleBackColor = false;
+            this.C2.Click += new System.EventHandler(this.C2_Click);
             // 
             // C1
             // 
             this.C1.BackColor = System.Drawing.Color.Gainsboro;
+            this.C1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.C1.Location = new System.Drawing.Point(68, 397);
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(142, 135);
             this.C1.TabIndex = 8;
             this.C1.UseVisualStyleBackColor = false;
+            this.C1.Click += new System.EventHandler(this.C1_Click);
             // 
             // AizvertPoga2
             // 
