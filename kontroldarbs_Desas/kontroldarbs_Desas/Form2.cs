@@ -40,8 +40,9 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             A1.Enabled = false;//lai otrs spēlētājs nevarētu savu figūru uzlikt virsu.
-            parbaude();
             skaits++;
+            parbaude();
+            
             
         }
 
@@ -58,8 +59,9 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             A2.Enabled = false;
-            parbaude();
             skaits++;
+            parbaude();
+            
         }
 
         private void A3_Click(object sender, EventArgs e)
@@ -75,8 +77,9 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             A3.Enabled = false;
-            parbaude();
             skaits++;
+            parbaude();
+            
         }
         private void B1_Click(object sender, EventArgs e)
         {
@@ -91,8 +94,9 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             B1.Enabled = false;
-            parbaude();
             skaits++;
+            parbaude();
+            
         }
 
         private void B2_Click(object sender, EventArgs e)
@@ -108,8 +112,9 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             B2.Enabled = false;
-            parbaude();
             skaits++;
+            parbaude();
+            
         }
         private void B3_Click(object sender, EventArgs e)
         {
@@ -124,8 +129,9 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             B3.Enabled = false;
-            parbaude();
             skaits++;
+            parbaude();
+            
         }
         private void C1_Click(object sender, EventArgs e)
         {
@@ -140,8 +146,9 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             C1.Enabled = false;
-            parbaude();
             skaits++;
+            parbaude();
+            
         }
         private void C2_Click(object sender, EventArgs e)
         {
@@ -156,8 +163,9 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             C2.Enabled = false;
-            parbaude();
             skaits++;
+            parbaude();
+            
         }
         private void C3_Click(object sender, EventArgs e)
         {
@@ -172,8 +180,9 @@ namespace kontroldarbs_Desas
                 gajiens = true;
             }
             C3.Enabled = false;
-            parbaude();
             skaits++;
+            parbaude();
+            
         }
 
         private void parbaude()
