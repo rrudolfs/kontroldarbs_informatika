@@ -66,7 +66,7 @@ namespace kontroldarbs_Desas
             // 
             this.InformacijaPoga.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.InformacijaPoga.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.InformacijaPoga.Location = new System.Drawing.Point(424, 411);
+            this.InformacijaPoga.Location = new System.Drawing.Point(409, 411);
             this.InformacijaPoga.Name = "InformacijaPoga";
             this.InformacijaPoga.Size = new System.Drawing.Size(111, 71);
             this.InformacijaPoga.TabIndex = 2;
@@ -78,7 +78,7 @@ namespace kontroldarbs_Desas
             // 
             this.AizvertPoga.BackColor = System.Drawing.Color.Brown;
             this.AizvertPoga.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.AizvertPoga.Location = new System.Drawing.Point(25, 411);
+            this.AizvertPoga.Location = new System.Drawing.Point(42, 411);
             this.AizvertPoga.Name = "AizvertPoga";
             this.AizvertPoga.Size = new System.Drawing.Size(111, 71);
             this.AizvertPoga.TabIndex = 3;

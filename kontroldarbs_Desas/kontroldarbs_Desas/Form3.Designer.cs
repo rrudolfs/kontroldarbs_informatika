@@ -38,7 +38,7 @@ namespace kontroldarbs_Desas
             // 
             this.label1.BackColor = System.Drawing.Color.Khaki;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label1.Location = new System.Drawing.Point(138, 67);
+            this.label1.Location = new System.Drawing.Point(141, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(297, 112);
             this.label1.TabIndex = 0;
@@ -49,9 +49,9 @@ namespace kontroldarbs_Desas
             // 
             this.ApsveikumaUzraksts.BackColor = System.Drawing.Color.Khaki;
             this.ApsveikumaUzraksts.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.ApsveikumaUzraksts.Location = new System.Drawing.Point(74, 269);
+            this.ApsveikumaUzraksts.Location = new System.Drawing.Point(44, 261);
             this.ApsveikumaUzraksts.Name = "ApsveikumaUzraksts";
-            this.ApsveikumaUzraksts.Size = new System.Drawing.Size(419, 118);
+            this.ApsveikumaUzraksts.Size = new System.Drawing.Size(492, 118);
             this.ApsveikumaUzraksts.TabIndex = 1;
             this.ApsveikumaUzraksts.Text = "Uzvarējis 2. spēlētājs !!";
             this.ApsveikumaUzraksts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -78,8 +78,10 @@ namespace kontroldarbs_Desas
             this.Controls.Add(this.AizvertPoga2);
             this.Controls.Add(this.ApsveikumaUzraksts);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.ShowIcon = false;
+            this.Text = "Desas";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
 

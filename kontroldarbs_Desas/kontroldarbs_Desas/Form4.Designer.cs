@@ -38,7 +38,7 @@ namespace kontroldarbs_Desas
             // 
             this.label1.BackColor = System.Drawing.Color.Khaki;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label1.Location = new System.Drawing.Point(139, 71);
+            this.label1.Location = new System.Drawing.Point(143, 85);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(297, 112);
             this.label1.TabIndex = 1;
@@ -49,9 +49,9 @@ namespace kontroldarbs_Desas
             // 
             this.ApsveikumaUzraksts.BackColor = System.Drawing.Color.Khaki;
             this.ApsveikumaUzraksts.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.ApsveikumaUzraksts.Location = new System.Drawing.Point(84, 269);
+            this.ApsveikumaUzraksts.Location = new System.Drawing.Point(36, 266);
             this.ApsveikumaUzraksts.Name = "ApsveikumaUzraksts";
-            this.ApsveikumaUzraksts.Size = new System.Drawing.Size(419, 118);
+            this.ApsveikumaUzraksts.Size = new System.Drawing.Size(507, 118);
             this.ApsveikumaUzraksts.TabIndex = 2;
             this.ApsveikumaUzraksts.Text = "Uzvarējis 1. spēlētājs !!";
             this.ApsveikumaUzraksts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -60,7 +60,7 @@ namespace kontroldarbs_Desas
             // 
             this.AizvertPoga2.BackColor = System.Drawing.Color.Brown;
             this.AizvertPoga2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.AizvertPoga2.Location = new System.Drawing.Point(200, 450);
+            this.AizvertPoga2.Location = new System.Drawing.Point(210, 447);
             this.AizvertPoga2.Name = "AizvertPoga2";
             this.AizvertPoga2.Size = new System.Drawing.Size(154, 82);
             this.AizvertPoga2.TabIndex = 13;
@@ -77,8 +77,10 @@ namespace kontroldarbs_Desas
             this.Controls.Add(this.AizvertPoga2);
             this.Controls.Add(this.ApsveikumaUzraksts);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.ShowIcon = false;
+            this.Text = "Desas";
             this.ResumeLayout(false);
 
         }

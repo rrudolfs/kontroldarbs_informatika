@@ -33,8 +33,8 @@ namespace kontroldarbs_Desas
         private void InformacijaPoga_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Desas ir 2 spēlētāju spēle, kurā mērķis ir savu simbolu ievietot 3 blakusesošos kvadrātos.\n" +
-                "Spēlētājs uzvar ja ievieto 3 savus simbolus pēc kārtas vertikālā, horizontālē vai diagonālā virzienā\n" +
-                "Ja otrs spēlētājs jau savu simbolu kvadrātā jau ir ielicis, tad savu tur vairs likt nevar.\n" +
+                "Spēlētājs uzvar ja ievieto 3 savus simbolus pēc kārtas vertikālā, horizontālā vai diagonālā virzienā.\n" +
+                "Ja otrs spēlētājs jau savu simbolu kvadrātā jau ir ievietojis, tad savu simbolu tur vairs ievietot nevar.\n" +
                 "Ja pēc 9 gājieniem neviens nav uzvarējis, ir neizšķirts\n\n" +
                 "Veidojis Rūdolfs Rudmiezis 2022. gadā.", "Informācija par spēli");
         }
